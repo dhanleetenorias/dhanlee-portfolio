@@ -17,7 +17,7 @@ export const SITE = {
   phone: "+63 919 506 8719",
   location: "Subic Bay Freeport Zone, Philippines",
   // TODO: user to supply — rendered only when non-null
-  github: null as string | null,
+  github: "https://github.com/dhanleetenorias" as string | null,
   linkedin: null as string | null,
   url: "https://dhanlee-portfolio.vercel.app",
 } as const;

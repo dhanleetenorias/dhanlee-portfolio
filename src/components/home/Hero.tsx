@@ -10,9 +10,18 @@ export default function Hero() {
       <div className="grid items-center gap-12 md:grid-cols-[1fr_minmax(280px,380px)]">
         <div>
           <Reveal>
-            <p className="text-[13px] font-medium uppercase tracking-[0.08em] text-muted">
-              {SITE.eyebrow}
-            </p>
+            <div className="flex flex-wrap items-center gap-3">
+              <span className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-[12.5px] font-medium text-soft">
+                <span className="relative flex h-2 w-2">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pp opacity-60 motion-reduce:animate-none" />
+                  <span className="relative inline-flex h-2 w-2 rounded-full bg-pp" />
+                </span>
+                Open to remote work
+              </span>
+              <p className="text-[13px] font-medium uppercase tracking-[0.08em] text-muted">
+                {SITE.eyebrow}
+              </p>
+            </div>
           </Reveal>
           <KineticHeadline
             lines={SITE.headline}
