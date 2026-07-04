@@ -22,10 +22,11 @@ export default function Portrait() {
           <Image
             src="/portrait.jpg"
             alt={SITE.name}
-            width={420}
-            height={420}
+            width={1200}
+            height={1200}
             priority
-            quality={85}
+            quality={88}
+            sizes="(min-width: 768px) 420px, 90vw"
             className="aspect-square w-full max-w-[420px] object-cover"
           />
         ) : (
