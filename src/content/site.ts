@@ -19,5 +19,5 @@ export const SITE = {
   // TODO: user to supply — rendered only when non-null
   github: "https://github.com/dhanleetenorias" as string | null,
   linkedin: null as string | null,
-  url: "https://dhanlee-portfolio.vercel.app",
+  url: "https://dhanlee.me",
 } as const;
