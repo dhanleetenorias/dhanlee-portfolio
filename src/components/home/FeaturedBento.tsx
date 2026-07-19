@@ -33,8 +33,8 @@ export default function FeaturedBento() {
                 Recover more revenue before leads go cold.
               </h3>
               <p className="mt-2 max-w-[480px] text-[0.95rem] leading-[1.65] text-soft">
-                A revenue-risk inbox for aesthetic clinics — Instagram &amp;
-                Messenger DMs ranked by what&rsquo;s quietly losing bookings.
+                A revenue-risk inbox for aesthetic clinics — DMs across 7
+                channels, ranked by what&rsquo;s quietly losing bookings.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {["~69k LOC", "185 API routes", "7 channels", "Live demo"].map(
@@ -53,8 +53,8 @@ export default function FeaturedBento() {
               <Image
                 src="/work/pulsepilot/inbox.png"
                 alt="PulsePilot priority inbox"
-                width={1280}
-                height={713}
+                width={2560}
+                height={1600}
                 sizes="(min-width: 768px) 660px, 100vw"
                 className="w-full transition-transform duration-300 group-hover:scale-[1.02]"
               />
@@ -76,8 +76,8 @@ export default function FeaturedBento() {
                 </span>
               </div>
               <h3 className="mt-3 text-[1.1rem] font-semibold leading-snug text-ink">
-                80+ ticket infra rollout, 4-Eye Review process, 50+ doc
-                knowledge base.
+                81-ticket infra rollout, 4-Eye Review process, 50+ doc knowledge
+                base.
               </h3>
             </div>
             <p className="mt-4 text-[13.5px] text-muted transition-colors group-hover:text-soft">

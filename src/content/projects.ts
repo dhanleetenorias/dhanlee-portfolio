@@ -64,8 +64,8 @@ export const PROJECTS: Project[] = [
     heroShot: {
       src: "/work/pulsepilot/inbox.png",
       alt: "PulsePilot priority inbox",
-      width: 1280,
-      height: 713,
+      width: 2560,
+      height: 1600,
     },
     liveUrl: "https://pulsepilot-tan.vercel.app/demo",
     sections: [
@@ -112,50 +112,43 @@ export const PROJECTS: Project[] = [
         shots: [
           {
             src: "/work/pulsepilot/inbox.png",
-            alt: "Priority inbox",
+            alt: "Priority inbox with per-channel badges",
             caption:
-              "The priority inbox — conversations ranked by revenue risk, not recency.",
-            width: 1280,
-            height: 713,
+              "The priority inbox — conversations ranked by revenue risk, not recency, with a color rail and per-channel badges (Instagram, Messenger, WhatsApp…).",
+            width: 2560,
+            height: 1600,
           },
           {
             src: "/work/pulsepilot/overview.png",
-            alt: "Clinic overview",
+            alt: "Clinic dashboard overview",
             caption:
-              "Clinic overview — booking gaps and risk surfaced above the fold.",
-            width: 1280,
-            height: 713,
-          },
-          {
-            src: "/work/pulsepilot/risk-score.png",
-            alt: "Risk scoring",
-            caption:
-              "Deterministic risk scoring — every score explains itself.",
-            width: 1280,
-            height: 713,
+              "Clinic overview — open risk, follow-ups due, attributed revenue, and an AI weekly digest above the fold.",
+            width: 2560,
+            height: 1600,
           },
           {
             src: "/work/pulsepilot/ai-draft.png",
-            alt: "AI draft with approval gate",
-            caption: "AI drafts a reply; a human approves it. No auto-send.",
-            width: 1280,
-            height: 713,
+            alt: "Conversation view with AI draft controls",
+            caption:
+              "A conversation thread with the AI-draft and AI-tools controls — the AI drafts, a human sends. No auto-reply.",
+            width: 2560,
+            height: 1600,
           },
           {
             src: "/work/pulsepilot/analytics.png",
-            alt: "Analytics",
+            alt: "Analytics view",
             caption:
-              "The analytics view — the metrics the product tracks per conversation: attributed revenue, response times, booking conversion (shown here on seeded demo data).",
-            width: 1280,
-            height: 934,
+              "The analytics view — the metrics the product tracks: revenue forecast, conversion funnel, response time, and AI-draft usage (shown here on seeded demo data).",
+            width: 2560,
+            height: 1600,
           },
           {
             src: "/work/pulsepilot/mobile.png",
             alt: "Mobile inbox",
             caption:
               "Fully responsive — the front desk isn't always at a desk.",
-            width: 390,
-            height: 844,
+            width: 1170,
+            height: 2532,
           },
         ],
       },
