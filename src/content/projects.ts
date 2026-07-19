@@ -130,9 +130,9 @@ export const PROJECTS: Project[] = [
             src: "/work/pulsepilot/ai-draft.png",
             alt: "Conversation view with AI draft controls",
             caption:
-              "A conversation thread with the AI-draft and AI-tools controls — the AI drafts, a human sends. No auto-reply.",
+              "A live conversation thread — AI-tools and AI-draft controls above a human composer with Form, Pay, and booking-link actions. The AI drafts; a human sends.",
             width: 2560,
-            height: 1600,
+            height: 1426,
           },
           {
             src: "/work/pulsepilot/analytics.png",
