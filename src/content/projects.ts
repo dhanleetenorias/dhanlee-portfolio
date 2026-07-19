@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
             src: "/work/pulsepilot/analytics.png",
             alt: "Analytics",
             caption:
-              "Analytics — recovered revenue, response times, booking conversion.",
+              "The analytics view — the metrics the product tracks per conversation: attributed revenue, response times, booking conversion (shown here on seeded demo data).",
             width: 1280,
             height: 934,
           },
