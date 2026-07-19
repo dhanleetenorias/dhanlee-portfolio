@@ -37,7 +37,7 @@ export default function FeaturedBento() {
                 Messenger DMs ranked by what&rsquo;s quietly losing bookings.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                {["~45k LOC", "180+ API routes", "75+ tables", "Live demo"].map(
+                {["~69k LOC", "185 API routes", "7 channels", "Live demo"].map(
                   (chip) => (
                     <span
                       key={chip}

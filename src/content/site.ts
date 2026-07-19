@@ -12,7 +12,7 @@ export const SITE = {
   eyebrow:
     "Builder · Technical PM · Subic Bay, PH — working remotely with EU teams",
   positioning:
-    "Solo-built PulsePilot, a ~45k-LOC clinic CRM — and I run delivery, documentation, and research for remote European teams.",
+    "Solo-built PulsePilot, a ~69k-LOC AI clinic CRM — and I run delivery, documentation, and research for remote European teams.",
   email: "2306dhanlee.tenorias@gmail.com",
   phone: "+63 919 506 8719",
   location: "Subic Bay Freeport Zone, Philippines",
