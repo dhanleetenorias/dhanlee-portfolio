@@ -11,7 +11,8 @@ export function personJsonLd() {
         "@id": `${SITE.url}/#person`,
         name: SITE.name,
         email: `mailto:${SITE.email}`,
-        jobTitle: "Technical Project Manager & Full-Stack Builder",
+        jobTitle:
+          "Software Builder · Technical Project Manager · Product Researcher",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Subic Bay Freeport Zone",

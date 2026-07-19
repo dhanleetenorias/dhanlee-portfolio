@@ -9,10 +9,11 @@ export const SITE = {
     "I build and deliver",
     "production software and the process around it.",
   ],
+  tagline: "Builder — software, process & research",
   eyebrow:
-    "Builder · Technical PM · Subic Bay, PH — working remotely with EU teams",
+    "Builder · Software, process & research · Subic Bay, PH — remote-friendly",
   positioning:
-    "Solo-built PulsePilot, a ~69k-LOC AI clinic CRM — and I run delivery, documentation, and research for remote European teams.",
+    "I ship products, design the delivery process behind them, and produce the research that de-risks the call — solo-built PulsePilot (~69k-LOC SaaS), ran delivery for a remote infrastructure team, and drove launch research for an e-commerce brand.",
   email: "2306dhanlee.tenorias@gmail.com",
   phone: "+63 919 506 8719",
   location: "Subic Bay Freeport Zone, Philippines",
