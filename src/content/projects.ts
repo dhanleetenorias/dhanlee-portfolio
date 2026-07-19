@@ -1,7 +1,9 @@
-// SOURCE OF TRUTH: ~/Documents/Dhanlee_Tenorias_Resume.md + ~/pulsepilot/README.md
+// SOURCE OF TRUTH: ~/Documents/_career/Dhanlee_Tenorias_Resume.md + ~/pulsepilot/README.md
 // Verified from live repo (2026-07-19): ~69k LOC, 185 API routes, 78 tables, 10 edge
-// functions, 80+ tickets, 2 epics, 50+ docs, 20+ SOPs, 6 components,
+// functions, 81 tickets, 2 epics, 50+ docs, 20+ SOPs, 6 components,
 // 40+ competitors, ~40% undercut, 30% margin floor.
+// Screenshots (2026-07-19): captured from the live logged-in workspace (current UI),
+// seeded/demo content only — inbox filtered to Instagram to exclude real service email.
 import type { Venture } from "@/lib/tokens";
 
 export type Metric = {
@@ -64,8 +66,8 @@ export const PROJECTS: Project[] = [
     heroShot: {
       src: "/work/pulsepilot/inbox.png",
       alt: "PulsePilot priority inbox",
-      width: 2560,
-      height: 1600,
+      width: 1280,
+      height: 800,
     },
     liveUrl: "https://pulsepilot-tan.vercel.app/demo",
     sections: [
@@ -114,41 +116,41 @@ export const PROJECTS: Project[] = [
             src: "/work/pulsepilot/inbox.png",
             alt: "Priority inbox with per-channel badges",
             caption:
-              "The priority inbox — conversations ranked by revenue risk, not recency, with a color rail and per-channel badges (Instagram, Messenger, WhatsApp…).",
-            width: 2560,
-            height: 1600,
-          },
-          {
-            src: "/work/pulsepilot/overview.png",
-            alt: "Clinic dashboard overview",
-            caption:
-              "Clinic overview — open risk, follow-ups due, attributed revenue, and an AI weekly digest above the fold.",
-            width: 2560,
-            height: 1600,
+              "The priority inbox — conversations ranked by revenue risk, not recency, with a color rail, peso value, alert counts, and the next best action per lead (shown here on seeded demo data).",
+            width: 1280,
+            height: 800,
           },
           {
             src: "/work/pulsepilot/ai-draft.png",
             alt: "Conversation view with AI draft controls",
             caption:
               "A live conversation thread — AI-tools and AI-draft controls above a human composer with Form, Pay, and booking-link actions. The AI drafts; a human sends.",
-            width: 2560,
-            height: 1426,
+            width: 1280,
+            height: 800,
           },
           {
             src: "/work/pulsepilot/analytics.png",
             alt: "Analytics view",
             caption:
-              "The analytics view — the metrics the product tracks: revenue forecast, conversion funnel, response time, and AI-draft usage (shown here on seeded demo data).",
-            width: 2560,
-            height: 1600,
+              "The analytics view — conversion funnel and channel leakage, revenue forecast, operator performance, and response-time thresholds (shown here on seeded demo data).",
+            width: 1280,
+            height: 1089,
+          },
+          {
+            src: "/work/pulsepilot/payments.png",
+            alt: "Payments and revenue operations",
+            caption:
+              "Revenue operations — eleven payment gateways (PayMongo, Stripe, GCash, PayPal, Xendit…), a per-patient transactions ledger, and a gift-voucher tool.",
+            width: 1280,
+            height: 1632,
           },
           {
             src: "/work/pulsepilot/mobile.png",
             alt: "Mobile inbox",
             caption:
-              "Fully responsive — the front desk isn't always at a desk.",
-            width: 1170,
-            height: 2532,
+              "Fully responsive, with a native-style bottom tab bar — the front desk isn't always at a desk.",
+            width: 390,
+            height: 844,
           },
         ],
       },

@@ -53,8 +53,8 @@ export default function FeaturedBento() {
               <Image
                 src="/work/pulsepilot/inbox.png"
                 alt="PulsePilot priority inbox"
-                width={2560}
-                height={1600}
+                width={1280}
+                height={800}
                 sizes="(min-width: 768px) 660px, 100vw"
                 className="w-full transition-transform duration-300 group-hover:scale-[1.02]"
               />
