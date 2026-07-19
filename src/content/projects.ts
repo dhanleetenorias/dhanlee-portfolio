@@ -1,5 +1,5 @@
 // SOURCE OF TRUTH: ~/Documents/Dhanlee_Tenorias_Resume.md + ~/pulsepilot/README.md
-// Allowed stats ONLY (per plan): ~45k LOC, 180+ API routes, 75+ tables, 14 edge
+// Verified from live repo (2026-07-19): ~69k LOC, 185 API routes, 78 tables, 10 edge
 // functions, 80+ tickets, 2 epics, 50+ docs, 20+ SOPs, 6 components,
 // 40+ competitors, ~40% undercut, 30% margin floor.
 import type { Venture } from "@/lib/tokens";
@@ -56,10 +56,10 @@ export const PROJECTS: Project[] = [
     role: "Solo build · Next.js, React, TypeScript, Supabase",
     dates: "2026 — ongoing",
     metrics: [
-      { value: "~45k", label: "lines of code", countTo: 45, suffix: "k" },
-      { value: "180+", label: "API routes", countTo: 180, suffix: "+" },
-      { value: "75+", label: "Postgres tables", countTo: 75, suffix: "+" },
-      { value: "14", label: "edge functions", countTo: 14 },
+      { value: "~69k", label: "lines of code", countTo: 69, suffix: "k" },
+      { value: "185", label: "API routes", countTo: 185 },
+      { value: "78", label: "Postgres tables", countTo: 78 },
+      { value: "7", label: "messaging channels", countTo: 7 },
     ],
     heroShot: {
       src: "/work/pulsepilot/inbox.png",
@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
         heading: "The problem",
         paragraphs: [
           "Aesthetic and medical clinics lose bookings inside their DM inboxes. A hot inquiry sits idle. A follow-up goes overdue. Pricing gets sent with no booking link. A voice note never gets answered. Each one is revenue quietly leaking out of a conversation nobody is watching.",
-          "PulsePilot ingests Instagram and Messenger DMs and surfaces the conversations that are losing bookings — then tells the operator exactly what to do next.",
+          "PulsePilot pulls DMs from 7 channels — Instagram, Messenger, Telegram, WhatsApp, SMS, Viber, and Email — into one revenue-risk queue, scores each conversation by urgency, and tells the operator exactly what to do next.",
         ],
       },
       {
@@ -97,12 +97,12 @@ export const PROJECTS: Project[] = [
             body: "Row-level security on every table. Multi-tenant isolation is enforced in the database, not in application code.",
           },
           {
-            title: "Edge functions",
-            body: "Webhook ingest for Instagram/Messenger events, decoupled from the dashboard.",
+            title: "Edge functions + Gemini AI",
+            body: "10 Supabase Edge Functions handle multi-channel webhook ingest; Gemini powers smart replies, transcription, and translation — always behind a human-approval gate.",
           },
           {
             title: "Paddle billing",
-            body: "Per-clinic subscription tiers with checkout, webhooks, and plan gating wired end-to-end.",
+            body: "Four per-clinic subscription tiers (Free / $17 / $43 / $85) with checkout, webhooks, and plan gating wired end-to-end.",
           },
         ],
       },
@@ -195,7 +195,7 @@ export const PROJECTS: Project[] = [
     role: "Technical Project Manager · Elyrix / Helity.org",
     dates: "2026 — ongoing",
     metrics: [
-      { value: "80+", label: "tickets coordinated", countTo: 80, suffix: "+" },
+      { value: "81", label: "tickets coordinated", countTo: 81 },
       { value: "2", label: "delivery epics completed", countTo: 2 },
       {
         value: "50+",
